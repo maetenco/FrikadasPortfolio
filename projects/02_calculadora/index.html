@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/practice/05_calculator/style.css" />
+  </head>
+  <body>
+    <h1>Práctica - Calculadora</h1>
+    <div class="numbers">
+      <label for="numberOne">Ingresa el primer número</label>
+      <input type="text" id="numberOne" />
+
+      <label for="numberTwo">Ingresa el segundo número</label>
+      <input type="text" id="numberTwo" />
+    </div>
+    <div class="btns">
+      <button class="btn btn-add" onclick="addition()" id="btnAdd">Suma</button>
+      <button class="btn btn-sub" onclick="substract()" id="btnSub">
+        Resta
+      </button>
+      <button class="btn btn-mult" onclick="multiplication()" id="btnMult">
+        Multiplicación
+      </button>
+      <button class="btn btn-div" onclick="divition()" id="btnDiv">
+        División
+      </button>
+    </div>
+    <div class="result">
+      <h2 id="showResult">HEY!</h2>
+    </div>
+    <script src="/practice/05_calculator/app.js"></script>
+  </body>
+</html>
