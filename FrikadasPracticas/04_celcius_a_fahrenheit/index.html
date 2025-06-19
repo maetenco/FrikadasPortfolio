@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de temperaturas</title>
+    <link
+      rel="stylesheet"
+      href="/practice/06_celcius_to_fahrenheit/style.css"
+    />
+  </head>
+  <body>
+    <!-- <h1>Practiando - Conversor de temperaturas</h1> -->
+    <div class="container">
+      <label for="">Ingrese la temperatura:</label>
+      <input id="temperatura" type="text" />
+    </div>
+    <div class="btns">
+      <button onclick="toF()" id="btn btn-C-to-F">
+        Convertir de Celsius a Fahrenheit
+      </button>
+      <button onclick="toC()" id="btn btn-F-to-C">
+        Convertir de Fahrenheit a Celsius
+      </button>
+    </div>
+    <div class="container_result">
+      <h2 id="result">Resultado</h2>
+    </div>
+    <script src="/practice/06_celcius_to_fahrenheit/script.js"></script>
+  </body>
+</html>
