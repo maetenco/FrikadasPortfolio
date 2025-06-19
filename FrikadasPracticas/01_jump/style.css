@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation {
+  background-color: purple;
+  transform: translateY(-100%);
+  animation-name: jump;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  position: absolute;
+
+}
+
+.menu li {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
